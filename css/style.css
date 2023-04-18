@@ -1,0 +1,41 @@
+/* Variables mamalonas siempre van arriba de todo!!!!! */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@600;700&display=swap");
+/* reseteo */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Hind", sans-serif; }
+
+.flex-column, .main-index .primera, .main-index .segunda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-color: #aaf683; }
+
+/*MIXIN*/
+/*secciones*/
+/* Condicionales */
+.header h1 {
+  color: #60d394;
+  font-family: "Montserrat", sans-serif; }
+
+.header h1 {
+  background-color: #ee6055; }
+
+.main-index {
+  /*EXTEND*/
+  /*Operaciones*/ }
+  .main-index .segunda img {
+    width: 200px; }
+  .main-index .tercera {
+    display: flex; }
+    .main-index .tercera .div-1 {
+      height: 150px; }
+    .main-index .tercera .div-2 {
+      background-color: #ff9b85;
+      height: 75px; }
+    .main-index .tercera .div-3 {
+      background-color: #ffd97d;
+      height: 300px; }

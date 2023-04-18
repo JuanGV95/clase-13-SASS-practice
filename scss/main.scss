@@ -1,0 +1,10 @@
+/* Variables mamalonas siempre van arriba de todo!!!!! */
+@import "./utilities/colors";
+@import "./utilities/typo";
+/* reseteo */
+@import "./utilities/reset";
+@import "./utilities/extend-y-mixin";
+/*secciones*/
+@import "./sections/header";
+@import "./sections/main-index";
+@import "./sections/footer";

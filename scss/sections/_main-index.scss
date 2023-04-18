@@ -1,0 +1,30 @@
+.main-index{
+    /*EXTEND*/
+    .primera{
+        @extend .flex-column;
+
+    }
+    .segunda{
+        @extend .flex-column;
+        img{
+            width: 200px;
+        }
+    }
+    
+    /*Operaciones*/
+    .tercera{
+        display: flex;
+        .div-1{
+            
+            height: ($alto-tercera)-50px;
+        }
+        .div-2{
+            background-color: $coral;
+            height: (150px)/2;
+        }
+        .div-3{
+            background-color: $amarillo;
+            height: 150*2px;
+        }
+    }
+}
